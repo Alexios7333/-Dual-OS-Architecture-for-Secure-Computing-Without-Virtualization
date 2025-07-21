@@ -1,46 +1,82 @@
-Overview
-This project introduces a revolutionary dual-OS security model where a trusted "Command OS" orchestrates and monitors all activities performed by an untrusted but full-featured "Superficial OS." The design creates enterprise-grade security without compromising user experience or system performance.
-Key Innovation
+# Dual-OS Secure Architecture: Epistemic Isolation Without Virtualization
 
-Physical drive separation instead of virtualization
-Zero virtualization overhead while maintaining strong isolation
-Epistemic isolation - complete information control
-Reactive security analysis rather than continuous monitoring
+##  Overview
 
-Architecture Highlights
+This project proposes a novel **dual-operating system security architecture**: a trusted, minimal **Command OS** controls and oversees an untrusted, user-facing **Superficial OS**.
 
-Command OS: Trusted core that boots from dedicated drive, handles all critical permissions
-Superficial OS: User-facing system that can be monitored, wiped, and reset
-Process handoff system for seamless transitions between security states
-Sensitive input interception to prevent credential theft
-Cryptographic integrity checking for persistent security guarantees
+Unlike traditional sandboxing or virtualization, this model uses **physical drive separation**, **strict information boundaries**, and **reactive integrity monitoring** to provide enterprise-level security — without sacrificing performance or usability.
 
-Documentation
+---
 
-Architecture Whitepaper - Complete technical specification and design rationale
-License - Research and commercial licensing terms
+##  Key Innovations
 
-Current Status
-Research Phase: Architecture design and conceptual framework complete. Seeking feedback from security researchers and exploring proof-of-concept development.
+- **Zero virtualization overhead**  
+  No hypervisors, no VMs — achieves isolation without the cost of virtualization.
+  
+- **Epistemic isolation**  
+  Prevents the untrusted OS from *knowing* or *influencing* core system behavior beyond its allowed scope.
+  
+- **Reactive, not passive**  
+  Security based on **predefined behavioral models** and **cryptographic verification**, rather than continuous monitoring.
 
-For Researchers
-This architecture is available for academic research under our research license. We welcome:
+---
 
-Security analysis and peer review
-Academic publications and citations
-Conceptual extensions and improvements
-Proof-of-concept collaborations
+##  Architecture Highlights
 
-Commercial Interest
-Commercial licensing available for:
+| Component | Role |
+|----------|------|
+| **Command OS** | Trusted control layer, boots independently, authorizes all system-critical actions |
+| **Superficial OS** | User-facing system, can be monitored, reset, or wiped as needed |
+| **Process handoff layer** | Bridges execution between OS environments safely |
+| **Secure input gateway** | Intercepts sensitive input (passwords, keys) to avoid credential theft |
+| **Cryptographic auditing** | Verifies file system, memory state, and execution paths |
 
-Enterprise security implementations
-OEM integrations
-Custom deployment solutions
-Technology partnerships
+---
 
-Contact
+##  Documentation
 
-Research Collaboration: AdrianSa7333@gmail.com
-Commercial Licensing: AdrianSa7333@gmail.com
-General Inquiries: AdrianSa7333@gmail.com
+- **[Whitepaper](./Architecture_Whitepaper.pdf)** – Full technical spec, design rationale, and implementation pathways
+- **[License](./LICENSE.txt)** – Research and commercial licensing terms
+
+---
+
+##  Current Status
+
+**Research Phase** – Core design complete, architectural analysis underway.  
+Looking for feedback, collaborators, and potential proof-of-concept builders.
+
+---
+
+##  For Researchers
+
+We welcome collaboration from academia and security research circles:
+
+- Peer review and analysis
+- Formal modeling and attack simulations
+- Proof-of-concept exploration
+- Conference papers and citations
+
+**License:** Research use only. Commercial use requires separate licensing.
+
+---
+
+##  Commercial Licensing
+
+Available for:
+
+- Enterprise security stacks
+- OEM integrations
+- Infrastructure deployments
+- Co-development partnerships
+
+Contact us to discuss licensing, IP transfer, or implementation support.
+
+---
+
+##  Contact
+
+- Research & Collaboration: `AdrianSa7333@gmail.com`  
+- Commercial Inquiries: `AdrianSa7333@gmail.com`  
+- General Questions: `AdrianSa7333@gmail.com`
+
+---
