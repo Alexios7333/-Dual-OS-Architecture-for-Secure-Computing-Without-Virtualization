@@ -237,7 +237,6 @@ This dual-OS model proposes a radical rethink of how we isolate, monitor, and re
 We welcome academic research and feedback on this architectural approach. Research institutions are invited to explore this concept under our research license terms, with commercial applications available through separate licensing arrangements.
 
 Contact: AdrianSa7333@gmail.com
-Research License: Available upon request
 Commercial Licensing: AdrianSa7333@gmail.com
 
 Author: Alexios7333
