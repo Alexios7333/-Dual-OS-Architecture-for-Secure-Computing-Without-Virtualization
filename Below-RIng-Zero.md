@@ -6,8 +6,6 @@ Version: Draft 1.0
 
 Contact: AdrianSa7333@gmail.com
 
-License: Research license available upon request. For commercial licensing inquiries, contact via email.
-
 Abstract
 
 This document outlines a novel firmware-level operating system architecture inspired by advanced malware techniques. It proposes a security paradigm shift that leverages a dual-OS model—featuring a trusted Command OS and a user-facing Superficial OS—isolated through physical and logical separation. The system enables post-compromise control, proactive threat monitoring, and strategic reassertion of dominance in compromised environments.
