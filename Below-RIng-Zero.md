@@ -17,6 +17,7 @@ Modern cybersecurity strategies often rely on a flawed assumption of perfect sec
 
 By booting first into a write-only, firmware-level Command OS, and then initiating the Superficial OS, the system enforces a strict separation of authority. The Superficial OS becomes fundamentally unaware of the Command OS, preventing it from resisting or tampering with it—mirroring the stealth and control typically seen in rootkits but employed defensively.
 2. Key Concepts
+
 2.1 Dual OS Model
 
 Command OS (Trusted Core)
@@ -42,12 +43,15 @@ Superficial OS (User-Facing Layer)
 2.2 PSU Firmware Integration
 
 Future integration with smart Power Supply Units (PSUs) should be explored. By enabling communication between PSU firmware and the Command OS, the system can perform emergency shutdowns during severe breaches or detect anomalous power behaviors indicative of hardware-level compromise.
+
 2.3 Purpose-Built Weaknesses
 
 The Superficial OS is designed with deliberate vulnerabilities—state-based weak points—that serve as monitoring traps. These areas are continuously watched for exploitation attempts, enabling the Command OS to detect intrusion events and initiate countermeasures in real time.
+
 2.4 Weakpoint State Monitoring
 
 The Command OS passively monitors the variables tied to the defined weak zones. Upon detecting unexpected changes, it can launch a targeted response, roll back to a known-good state, and perform forensic reconstruction of the compromise timeline.
+
 2.5 Heuristic and Event-Based Threat Detection
 
 For threats not related to predefined weak points, heuristic-based analysis will be employed. This includes:
@@ -59,9 +63,11 @@ For threats not related to predefined weak points, heuristic-based analysis will
 2.6 Boot-Level Customization
 
 Admins with physical or cryptographic access (e.g., external hardware keys) can configure the Command OS during early boot. This enables tailoring of security parameters—such as sensitivity thresholds for ransomware detection—while remaining inaccessible to surface-level malware.
+
 2.7 System Reassertion and Power Control
 
 If system integrity cannot be restored, the Command OS may initiate a controlled shutdown to prevent further damage. Upon reboot, the system will analyze the Superficial OS drive in a read-only state, potentially reverting to a base configuration or awaiting external forensic inspection.
+
 2.8 Sensitive Input Interception
 
 The Command OS can detect sensitive fields (login, payment forms, etc.) and intercept input at the hardware level. This protects against keyloggers, screen recorders, and other forms of credential theft on the Superficial OS.
