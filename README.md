@@ -35,7 +35,7 @@ Unlike traditional sandboxing or virtualization, this model uses **physical driv
 
 ##  Documentation
 
-- **[Whitepaper](Architecture-Whitepaper)** – Full technical spec, design rationale, and implementation pathways
+- **[Whitepaper](Architecture-Whitepaper.md)** – Full technical spec, design rationale, and implementation pathways
 - **[License](License.md)** – Research and commercial licensing terms
 
 ---
