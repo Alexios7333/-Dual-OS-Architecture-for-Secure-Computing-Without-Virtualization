@@ -38,6 +38,7 @@ Unlike traditional sandboxing or virtualization, this model uses **physical driv
 - **[Whitepaper](Architecture-Whitepaper.md)** – Full technical spec, design rationale, and implementation pathways
 - **[Sub Ring Zero Framework](Below-RIng-Zero.md)** – Introduction to Command OS Framework
 - **[Command OS Fundamentals](Fundamentals-of-Command-Os.md)** – Command OS Conceptualization
+- **[Superficial OS Fundamentals](Superficial-OS-A-Zero-Trust-Operating-System.md)** – Zero Trust OS Framework
 - **[License](License.md)** – Research and commercial licensing terms
   
 ---
