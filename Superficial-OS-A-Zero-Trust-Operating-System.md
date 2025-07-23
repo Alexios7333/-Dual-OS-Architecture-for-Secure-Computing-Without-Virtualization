@@ -2,8 +2,11 @@ Title:
 Superficial OS: An Untrusted Execution Layer for Post-Compromise Control
 
 Author: Alexios7333
+
 Version: Draft 1.0
+
 Contact: AdrianSa7333@gmail.com
+
 Abstract
 
 This document outlines the architecture and rationale behind the Superficial OS—a user-facing, ring-0 operating system designed to act as an operational shell under the control of a lower-level Command OS. Purpose-built to be epistemically blinded and structurally manipulable, the Superficial OS enables seamless user interaction while ensuring robust, hardware-constrained security. When integrated with the Command OS, this architecture achieves security guarantees exceeding those of virtualization by leveraging post-compromise intercession, write-only access points, and disposable execution states.
