@@ -4,3 +4,6 @@
 ## 2025-07-22
 - Added link to new white paper in readme.
 - Removed sections about research licensing requirements from white papers to improve clarity.
+## 2025-07-23
+- Added link to Zero Trust OS concept paper in README
+- Resolved formatting issues
