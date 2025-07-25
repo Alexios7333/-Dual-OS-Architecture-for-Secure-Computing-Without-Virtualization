@@ -71,13 +71,17 @@ No persistence of malware unless explicitly permitted by Command OS
 
 Modular and scalable to consumer or enterprise contexts
 
-4. Hardware Requirements
+4. Hardware Requirements to test theory potentially. Thus facilitate with current Architecture the Foundations of total isolation.
 
-Two physical SSDs or NVMe drives
+Raspberry Pi Zero/Pico	Command OS	Run the supervisory logic and monitor system signals
 
-Minimum of 16GB RAM recommended
+Relay Module	Kill switch	Controlled by Pi to cut off PSU or USB
 
-Support for dual-boot or OS-controlled drive allocation
+2 SATA SSDs	Split architecture	One for the Command OS, one for the Superficial OS
+
+Bus Pirate / Logic Analyzer	Bus monitoring	Inspect signal lines for unauthorized writes
+
+FTDI chip or USB scope	Interface testing	See what’s being sent across ports from OS perspective
 
 5. Development Path
 
