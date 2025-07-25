@@ -39,8 +39,9 @@ Unlike traditional sandboxing or virtualization, this model uses **physical driv
 - **[Sub Ring Zero Framework](Below-RIng-Zero.md)** – Introduction to Command OS Framework
 - **[Command OS Fundamentals](Fundamentals-of-Command-Os.md)** – Command OS Conceptualization
 - **[Superficial OS Fundamentals](Superficial-OS-A-Zero-Trust-Operating-System.md)** – Zero Trust OS Framework
+- **[Cloud Computing Implentation](Cloud-Computing-and-Command-OS.md)** – Interaction Logic Between Cloud Computing and Framework
 - **[License](License.md)** – Research and commercial licensing terms
-  
+
 ---
 
 ##  Current Status
