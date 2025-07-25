@@ -40,10 +40,10 @@ Unlike traditional sandboxing or virtualization, this model uses **physical driv
 - **[Command OS Fundamentals](Fundamentals-of-Command-Os.md)** – Command OS Conceptualization
 - **[Superficial OS Fundamentals](Superficial-OS-A-Zero-Trust-Operating-System.md)** – Zero Trust OS Framework
 - **[Cloud Computing Implentation](Cloud-Computing-and-Command-OS.md)** – Interaction Logic Between Cloud Computing and Framework
+- **[Potential Test of Theory Build Components](Hypothetica-Proof-Of-Concept-Build-Segments.md)** – Initial Test Components for potential build.
 - **[License](License.md)** – Research and commercial licensing terms
 
 ---
-
 ##  Current Status
 
 **Research Phase** – Core design complete, architectural analysis underway.  
