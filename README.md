@@ -46,7 +46,7 @@ Unlike traditional sandboxing or virtualization, this model uses **physical driv
 ---
 ##  Current Status
 
-**Research Phase** – Core design complete, architectural analysis underway.  
+**Research Phase** – Research Phase: Core design and architectural analysis have been completed. A detailed document outlining the components for a Zero Trust testbed—built from readily available, low-cost parts—has now been published.
 Looking for feedback, collaborators, and potential proof-of-concept builders.
 
 ---
