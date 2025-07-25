@@ -8,4 +8,4 @@ Bus Pirate / Logic Analyzer	Bus monitoring	Inspect signal lines for unauthorized
 
 FTDI chip or USB scope	Interface testing	See what’s being sent across ports from OS perspective
 
-Early Concept idea for potential refinement.
+Early Concept idea for potential refinement. potentially could prove outright without new parts theory.
