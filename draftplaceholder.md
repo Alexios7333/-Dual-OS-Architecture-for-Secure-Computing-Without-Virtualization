@@ -1,8 +1,11 @@
-Cloud Computing and Command OS: A System of Security Beyond the OS
+Title: Cloud Computing and Command OS: A System of Security Beyond the OS
 
 Author: Alexios7333
+
 Version: Draft 1.0
+
 Contact: AdrianSa7333@gmail.com
+
 Abstract
 
 This document outlines the interactions between the Command OS and cloud-based infrastructure and verification systems. It explores how Command OS interfaces with edge computing advancements and how server-based infrastructure can resist physical infiltration—even in cases of hardware-level subversion of the Command OS. This paper makes the architectural case that cloud-based heuristics, monitoring, and total connectivity can enable a system-wide immune response to even isolated intrusions. Furthermore, it explores how this structure could address concerns such as misinformation campaigns, foreign influence operations, and digital forensics. In doing so, it introduces a method for establishing a verifiable chain of custody that could undermine the ability to convincingly generate content using LLMs or future AI systems—ultimately offering resilience against AGI-scale threats.
